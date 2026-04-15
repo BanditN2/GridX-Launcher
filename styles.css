@@ -1,1 +1,19 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0a0f2c;
+  color: white;
+}
 
+.tile {
+  width: 200px;
+  height: 120px;
+  background: #1c1c2e;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 12px;
+}
+
+.focused {
+  outline: 2px solid cyan;
+}
